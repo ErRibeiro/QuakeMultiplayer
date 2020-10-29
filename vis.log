@@ -1,17 +1,7 @@
 ---- vis / ericw-tools v0.18.1 ----
 running with 16 threads
 testlevel = 4
-LoadBSPFile: 'ZombieMap.bsp'
+LoadBSPFile: 'DevilsLab.bsp'
 BSP is version 29
-     6 leafs
-     7 portals
-Calculating Base Vis:
-0....1....2....3....4....5....6....7....8....9.
-Calculating Full Vis:
-0....1....2....3....4....5....6....7....8....9.
-average leafs visible: 6
-c_noclip: 0
-c_chains: 36
-visdatasize:6  compressed from 6
-Writing ZombieMap.bsp as BSP version 29
-  0.1 seconds elapsed
+LoadPortals: couldn't read DevilsLab.prt
+No vising performed.

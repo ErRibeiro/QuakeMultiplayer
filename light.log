@@ -1,33 +1,33 @@
 ---- light / ericw-tools v0.18.1 ----
 Raytracing backend: Embree
 running with 16 threads
-LoadBSPFile: 'ZombieMap.bsp'
+LoadBSPFile: 'DevilsLab.bsp'
 BSP is version 29
 --- LoadEntities ---
-10 entities read, 4 are lights.
+80 entities read, 48 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	64 solid faces
+	1931 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 4 initial lights
-SetupLights: 4 after surface lights
-SetupLights: 4 after jittering
+SetupLights: 48 initial lights
+SetupLights: 48 after surface lights
+SetupLights: 48 after jittering
 --- EstimateLightVisibility ---
-0....1....2....3....4....5....6....7..
-Final count: 4 lights 0 suns in use.
+0....1....2....3....4....5....6....7....8....9...
+Final count: 48 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 5247
+lightdatasize: 28436
 0 switchable light styles (32 max)
-Writing ZombieMap.bsp as BSP version 29
-0.406 seconds elapsed
+Writing DevilsLab.bsp as BSP version 29
+0.158 seconds elapsed
 
 stats:
-1.109073 lights tested, 0.892168 hits per sample point
+3.168626 lights tested, 1.748145 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
